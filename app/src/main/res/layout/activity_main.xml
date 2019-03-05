@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:addStatesFromChildren="false"
+    android:layout_marginTop="@android:dimen/app_icon_size"
+    android:gravity="center|top"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/tv_numero1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="wrap_content"
+        android:baselineAligned="false"
+        android:text="  Numero 1:"
+        android:textAlignment="textStart"
+        android:textColor="@android:color/background_dark"
+        android:textSize="18sp" />
+    />
+
+    <EditText
+        android:id="@+id/et_numero1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="numberDecimal"
+        android:text="0.0"
+        android:textAlignment="center"
+        android:textColor="@android:color/background_dark" />
+
+    <TextView
+        android:id="@+id/tv_numero2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="wrap_content"
+        android:baselineAligned="false"
+        android:text="  Numero 2:"
+        android:textAlignment="textStart"
+        android:textColor="@android:color/background_dark"
+        android:textSize="18sp" />
+
+    <EditText
+        android:id="@+id/et_numero2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="numberDecimal"
+        android:text="0.0"
+        android:textAlignment="center"
+        android:textColor="@android:color/background_dark" />
+
+    <TextView
+        android:id="@+id/tv_resultado"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="wrap_content"
+        android:baselineAligned="false"
+        android:text=" Resultado: "
+        android:textAlignment="textStart"
+        android:textColor="@android:color/background_dark"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/tv_resultado2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="wrap_content"
+        android:baselineAligned="false"
+        android:text= " 0.0 "
+        android:textAlignment="textStart"
+        android:textColor="@android:color/background_dark"
+        android:textSize="18sp" />
+
+    <Button
+        android:id="@+id/btn_suma"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/holo_red_dark"
+        android:text=" SUMA "
+        android:textSize="14sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/btn_resta"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/holo_blue_dark"
+        android:text=" RESTA " />
+
+    <Button
+        android:id="@+id/btn_multiplicacion"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/holo_green_light"
+        android:text=" MULTIPLICACION " />
+
+    <Button
+        android:id="@+id/btn_division"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/holo_orange_dark"
+        android:text=" DIVISION " />
+
+    <Button
+        android:id="@+id/btn_modulo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/holo_purple"
+        android:text=" MODULO "
+        android:textStyle="bold" />
+</LinearLayout>
